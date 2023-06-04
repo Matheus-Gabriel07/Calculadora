@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containner">
+        <div class="resultado">
+          <h3>Resultado: <span id="resultado"></span></h3>
+        </div>
+        <div class="numbers">
+          <button onclick="setNumber(1)" id="num1">1</button>
+          <button onclick="setNumber(2)" id="num2">2</button>
+          <button onclick="setNumber(3)" id="num3">3</button>
+          <button onclick="setNumber(4)" id="num4">4</button>
+          <button onclick="setNumber(5)" id="num5">5</button>
+          <button onclick="setNumber(6)" id="num6">6</button>
+          <button onclick="setNumber(7)" id="num7">7</button>
+          <button onclick="setNumber(8)" id="num8">8</button>
+          <button onclick="setNumber(9)" id="num9">9</button>
+          <button onclick="setNumber(10)" id="num10">10</button>
+        </div>
+        <div class="actions">
+          <button onclick="operation('+')">+</button>
+          <button onclick="operation('-')">-</button>
+          <button onclick="operation('*')">*</button>
+          <button onclick="operation('/')">/</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="reset()">Ce</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
